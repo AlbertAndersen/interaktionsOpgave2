@@ -79,6 +79,76 @@ img {
   width: 100%;
   padding-left: 150px;
   padding-right: 150px;
+  padding-top: 250px;
+  text-align: center;
+}
+
+.subIcons{
+  width: 330px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.faI{
+  height: 55px;
+  width: 55px;
+  border: 5px solid #545454;
+  border-radius: 50%;
+  color: #545454;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+
+}
+
+.subscrip{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.subText{
+  width: 225px;
+  height: 45px;
+  padding: 15px;
+  font-size: 16px;
+  font-style: italic;
+  color: #545454;
+}
+
+.flex{
+  width: 220px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+
+
+.textInput{
+  width: 150px;
+  height: 25px;
+  background-color: #ffffff;
+  border: none;
+  display: inline;
+  font-size: 16px;
+}
+
+.mailIcon{
+  width: 30px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 4.5px;
+  color: #6ec5ea;
+  font-size: 16px;
 }
 
 .footer{
