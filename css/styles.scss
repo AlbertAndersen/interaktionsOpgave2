@@ -36,6 +36,11 @@ img {
   height: auto; // Højden skal tilpasse sig
 }
 
+.Underoverskrift{
+  background-color: deeppink;
+  border: 1px solid #000;
+}
+
 @media screen and (min-width: 768px) {
   // Alt der ændres i tablet stående fra mobil
 }
