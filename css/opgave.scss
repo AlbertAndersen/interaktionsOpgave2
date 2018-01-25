@@ -5,9 +5,17 @@
   box-sizing: border-box; // Bokse har altid den størrelse man giver uanset om der tilføjes margen mv.
 }
 
+$font-stack: Helvetica, sans-serif;
+$primary-color: #000;
+
+
 body {
   margin: 0; // Ingen kanter i siden af browser
+  font: 100% $font-stack;
+  color: $primary-color;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0; // Ingen ydre margen fra overskrifter
@@ -36,10 +44,6 @@ img {
   height: auto; // Højden skal tilpasse sig
 }
 
-.Underoverskrift{
-  background-color: deeppink;
-  border: 1px solid #000;
-}
 
 @media screen and (min-width: 768px) {
   // Alt der ændres i tablet stående fra mobil
