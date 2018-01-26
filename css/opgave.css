@@ -94,11 +94,62 @@ img {
   max-width: 100%;
   height: auto; }
 
-.underheader {
+.underheader{
   background-color: #f4f4f4;
   width: 100%;
   height: 650px;
-  padding-left: 150px; }
+  padding-left: 150px;
+  background-image: url("../images/bg_underheader.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+
+.tekstheader{
+  font-family: "Proxima Nova";
+  font-weight: lighter;
+  font-size: 40px;
+  color: #a5a4a4;
+  margin-left: 150px;
+  padding-top: 100px;
+}
+
+.uheadtekst{
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  color: #a5a4a4;
+  margin-left: 150px;
+}
+
+.quoteblock{
+  display: flex ;
+  margin-left: 160px;
+}
+
+.quote {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  color: #a5a4a4;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.bokshi {
+  color: #14af8f;
+  border: thin solid #14af8f;
+  height: 50px;
+  width: 200px;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-left: 45px;
+  margin-left: 170px;
+  margin-top: 10px;
+}
+
 
 .content {
   background-color: #ffffff;
