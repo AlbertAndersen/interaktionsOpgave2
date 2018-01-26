@@ -94,14 +94,49 @@ img {
   background-color: #ffffff;
   width: 100%;
   height: 650px;
-  padding-right: 150px; }
+  padding-top: 60px;
+  background-image: url("../images/27330451_10155325315895677_2063774449_o.png");
+  background-attachment: inherit;
+  background-repeat: no-repeat; }
+
+.tekstoverskrift {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #a5a4a4;
+  padding-left: 850px; }
+
+.tekst2 {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  color: #a5a4a4;
+  padding-left: 850px; }
+
+.tekst3 {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #a3a3a3;
+  padding-left: 850px; }
+
+.boks3 {
+  color: #ea4c89;
+  border: thin solid #ea4c89;
+  height: 50px;
+  width: 200px;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  margin-left: 850px; }
 
 .semere {
   background-color: #13c3ae;
   height: 325px;
   width: 100%;
   padding-left: 150px;
-  padding-right: 150px; }
+  padding-top: 150px; }
 
 .subscription {
   background-color: #f4f4f4;
