@@ -1,0 +1,188 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 100% Proxima nova, sans-serif;
+  color: #000; }
+
+.menubar {
+  color: white;
+  font-size: xx-large;
+  padding-left: 1020px;
+  padding-top: 38px; }
+
+.overskrift {
+  color: white;
+  font-weight: bolder;
+  font-size: 70px;
+  padding-left: 690px;
+  padding-top: 108px; }
+
+.tekst1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 30px;
+  padding-left: 425px;
+  padding-top: 66px; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside; }
+
+li {
+  margin: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.header {
+  width: 100%;
+  height: 650px;
+  background-color: #63c2e7;
+  padding-left: 150px;
+  padding-right: 150px; }
+
+.underheader {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 650px;
+  padding-left: 150px; }
+
+.content {
+  background-color: #ffffff;
+  width: 100%;
+  height: 650px;
+  padding-right: 150px; }
+
+.semere {
+  background-color: #13c3ae;
+  height: 325px;
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px; }
+
+.subscription {
+  background-color: #f4f4f4;
+  height: 650px;
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 250px;
+  text-align: center; }
+
+.subIcons {
+  width: 330px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.faI {
+  height: 55px;
+  width: 55px;
+  border: 5px solid #545454;
+  border-radius: 50%;
+  color: #545454;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px; }
+
+.subscrip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center; }
+
+.subText {
+  width: 225px;
+  height: 45px;
+  padding: 15px;
+  font-size: 16px;
+  font-style: italic;
+  color: #545454; }
+
+.flex {
+  width: 220px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ffffff; }
+
+.textInput {
+  width: 150px;
+  height: 25px;
+  background-color: #ffffff;
+  border: none;
+  display: inline;
+  font-size: 16px; }
+
+.mailIcon {
+  width: 30px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 4.5px;
+  color: #63c2e7;
+  font-size: 16px; }
+
+.footer {
+  background-color: #ffffff;
+  height: 100px;
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 45px; }
+
+.infoFooter {
+  width: 350px;
+  font-size: 16px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.copyrightFa {
+  color: #747474; }
+
+.est {
+  color: #545454; }
+
+.perth {
+  color: #63c2e7; }
+
+.qouteF {
+  color: #545454;
+  font-style: italic; }
+
+.scrollUp {
+  position: fixed;
+  bottom: 30px;
+  right: 60px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  color: #545454;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 15px; }
+
+/*# sourceMappingURL=opgave.css.map */
