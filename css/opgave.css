@@ -23,7 +23,8 @@ body {
   height: 650px;
   background-color: #38bce7;
   padding-left: 150px;
-  padding-right: 150px; }
+  padding-right: 150px;
+  overflow: hidden; }
 
 .menubar {
   color: white;
